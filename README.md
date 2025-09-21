@@ -64,6 +64,21 @@ text: review text
 label: sentiment (positive/negative or 1/0)
 
 
+📊 Example Metrics Output
+{
+  "accuracy": 0.875,
+  "precision": 0.90,
+  "recall": 0.85,
+  "f1": 0.87,
+  "class_counts": {"positive": 50, "negative": 50},
+  "sample_test": [
+    {"text": "good value for money", "true": "positive", "pred": "positive"},
+    {"text": "not worth it", "true": "negative", "pred": "negative"}
+  ]
+}
+ 
+
+
 📌 Approach
 
 Pipeline: TfidfVectorizer → LogisticRegression
