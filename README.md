@@ -55,7 +55,7 @@ python app.py
 
 🗂️ Dataset Used
 
-Sample CSV provided: sample_data/sample_reviews.csv
+Sample CSV provided:sample_reviews.csv
 
 Columns:
 
