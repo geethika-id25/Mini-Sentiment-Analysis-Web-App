@@ -1,0 +1,27 @@
+{
+  "message": "Training complete",
+  "metrics": {
+    "accuracy": 0.85,
+    "precision": 0.83,
+    "recall": 0.82,
+    "f1": 0.825
+  },
+  "sample_test": [
+    {"text": "I love this product", "true": "positive", "pred": "positive"},
+    {"text": "Terrible experience", "true": "negative", "pred": "negative"}
+  ]
+}
+
+
+Predict sentiment for a single review 
+
+{ "text": "This phone is amazing!" }
+
+
+ response:
+
+{
+  "text": "This phone is amazing!",
+  "prediction": "positive",
+  "confidence": 0.92
+}
